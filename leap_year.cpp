@@ -10,13 +10,14 @@ int main(){
 	
 	if (year % 400 == 0){
 
-		printf ("The year %d is leap year",year);
+		printf ("The year %d is a leap year1",year);
 	}else if(year % 100 == 0){
-		printf ("The year %d is leap year",year);
+		printf ("The year %d is leap year2",year);
 		}else if(year % 4 == 0){
-		printf ("The year %d is leap year",year);	
+		printf ("The year %d is leap year3",year);	
+}else{
+printf ("The year %d is not a leap year",year);	
 }
-	
 	
 	return 0;
 	
