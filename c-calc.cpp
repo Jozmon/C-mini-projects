@@ -7,6 +7,8 @@ int main(){
 
 
 int recalc;
+int promptmode = 0;
+
 
 do {
 	
@@ -23,16 +25,25 @@ do {
 	float ans;
 	
 	
-
+	
+	if (promptmode==1){
+	
   	
 	printf ("###########################################################\n");
 	printf ("Enter 1 for multi-number and 0 single-number mode:\n");
 
-	
 	scanf("%d",&nummode);
 	
-	if (nummode==1){
+	}else if (promptmode==0)
+	{
+	nummode = 1;	//default number mode if prompt is disabled
+	}
+	
 
+	
+	//select number insertion mode into the calculator
+	if (nummode==1){
+	
 	printf("\n\n\n");	
 	printf("###########################################################\n");
 	printf("To calculate write two numbers and an operator in between:\n");
@@ -55,7 +66,8 @@ do {
     printf("Write the second number:\n");
     scanf("%f",&b);
     }
-    
+    	
+    	
 	if(op=='+')
 	{
 		ans=a+b;
