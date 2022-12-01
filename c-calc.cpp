@@ -1,21 +1,29 @@
 #include <stdio.h>
 #include <math.h>
 
-int main()
-{
+
+int main(){
+
+
+
+int recalc;
+
+do {
+	
+	
 	
 	//selection between multi-number and single-number mode 
 	int nummode;
 	
 	//To calculate again if 0 exit if one calculate again
-	int recalc;
+
 	
 	float a,b;
 	char op;
 	float ans;
 	
 	
-while(recalc=1) {
+
   	
 	printf ("###########################################################\n");
 	printf ("Enter 1 for multi-number and 0 single-number mode:\n");
@@ -87,9 +95,20 @@ while(recalc=1) {
 	
     scanf("%d", &recalc);
 	printf("\n%d\n", recalc);
+
+
+
+
+  
+  
+  
+  
+  
 }
+while (recalc < 0);
+
+
 
 
 return 0;
-
 }
