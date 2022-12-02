@@ -9,15 +9,15 @@ int main(){
 	scanf  ("%d",&year);
 	
 	if (year % 400 == 0){
-
-		printf ("The year %d is a leap year1",year);
+		printf ("The year %d is leap year\n",year);
 	}else if(year % 100 == 0){
-		printf ("The year %d is leap year2",year);
-		}else if(year % 4 == 0){
-		printf ("The year %d is leap year3",year);	
-}else{
-printf ("The year %d is not a leap year",year);	
+		printf ("The year %d is not leap year\n",year);
+	}else if(year % 4 == 0){
+		printf ("The year %d is leap year\n",year);	
+} else {
+		printf ("The year %d is not leap year\n",year);
 }
+	
 	
 	return 0;
 	
