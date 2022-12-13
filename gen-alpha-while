@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main() {
+
+char str;
+
+
+
+
+//Uppercase
+printf ("###################\n");
+printf ("Uppercase\n\n");
+
+str=65;
+
+while (str < 90){
+
+	
+	printf ("%c",str);
+	
+++str;
+}
+
+//Lowercase
+printf ("\n\n\n");
+printf ("###################\n");
+printf ("Lowercase\n\n");
+
+str=97;
+
+while (str < 122){
+
+	
+	printf ("%c",str);
+	
+++str;
+}
+
+printf ("\n\n\n");
+
+return 0;
+}
