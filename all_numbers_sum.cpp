@@ -11,7 +11,7 @@ int main() {
 		
 		int h ;
 		
-		
+		printf ("\n");
 		printf ("Write a number for cell %d :",i);
 
 		scanf  ("%d",&ARN[i]);
@@ -20,7 +20,8 @@ int main() {
 		
 		sum = sum + ARN[i];		
 	}
-
+	
+    	printf ("\n\n");
 	printf ("The total sum of numbers given is %d",sum);
 	
 	
