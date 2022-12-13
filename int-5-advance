@@ -6,8 +6,11 @@ int main(){
 	//in input type 0 the user manually writes the numbers.
 	int intype = 0;
 	
-	int a = 0;
+	int n;
+	int a;
+	
 	int i = 0;
+	
 	int c = 0;
 	
 	int AR[5];
@@ -25,8 +28,12 @@ int main(){
 	}else if (intype == 0){
 
 
-			
-		while( a < 5) {
+		
+		printf ("Give me an array size:");
+		scanf ("%d",&n);
+		
+		
+		while( a < n) {
 			
 		printf ("Write a number for cell %d :",a);
 		
@@ -34,15 +41,17 @@ int main(){
 		
 		++a;
 		
+		
+		
 		}
 	}
 	
 	
 	
+
 	
 	
-	
-	while(i<5){
+	while(i<n){
 		
 		printf ("The number: %d",AR[i]);
 		
@@ -59,4 +68,3 @@ int main(){
 	
 	return 0;
 }
-
